@@ -45,7 +45,7 @@ const Login = () => {
            <input type = 'password' placeholder='enter your password' name = 'password' value = {user.password} onChange= {handleChange}></input>
             <div className='button' onClick={login} >Login</div>
             <div>or</div>
-            <div className='button' >Register</div>
+            <div className='button' onClick={() =>navigate('/')} >Register</div>
         </div>
     );
 }
