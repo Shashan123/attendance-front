@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 
 function List({ employees, handleEdit, handleDelete, markAttendance}) {
@@ -67,9 +67,9 @@ function List({ employees, handleEdit, handleDelete, markAttendance}) {
                     )}
                 </tbody>
             </table>
+            <button className='round-button'>Log Out</button>
         </div>
     )
 }
 
 export default List;
-
