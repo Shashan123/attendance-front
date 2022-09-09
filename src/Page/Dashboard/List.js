@@ -67,7 +67,7 @@ function List({ employees, handleEdit, handleDelete, markAttendance}) {
                     )}
                 </tbody>
             </table>
-            <button className='round-button'>Log Out</button>
+            
         </div>
     )
 }
