@@ -51,7 +51,7 @@ const Register = () => {
         <input type='password' name = 'reEnterPassword' value = {user.reEnterPassword} placeholder='re-enter password' onChange={ handleChange }></input>
         <div className='button' onClick={register}>Register as an admin</div>
         <div>or</div>
-        <div className='button' >Already an admin</div>
+        <div className='button' onClick={() => navigate('/login')} >Already an admin</div>
     </div>;
 }
 
